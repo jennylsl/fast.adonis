@@ -138,8 +138,6 @@
       SE.Mat <- apply(boot.R2.set, 2, sd)
     }
     # Permutations
-    ## require R package Vegan
-    require(vegan)
     ## we do permutations only when samples do not require weights
     if(is.null(permutations)){
       permutations <- 0
