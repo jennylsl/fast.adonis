@@ -16,5 +16,6 @@ From an interactive R session:
 ```{r, eval=FALSE}
 library(devtools)
 install_github("jennylsl/fast.adonis")
-library(SpiecEasi)
+library(fast.adonis)
+
 ```
