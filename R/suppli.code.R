@@ -208,7 +208,7 @@ boot.fun <- function(ind.boot, weights, rhs, lhs, ind.col, Ind.matrix,
 #' @noRd
 #' @importFrom vegan getPermuteMatrix
 pern<- function(permutations,n){
-  p <- vegan:::getPermuteMatrix(permutations, n, strata =NULL)
+  p <- vegan::getPermuteMatrix(permutations, n, strata =NULL)
   return(p)
 }
 
