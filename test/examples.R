@@ -1,8 +1,8 @@
 library(vegan)
 library(plyr)
-library(parallel)
+library(fast.adonis)
 set.seed(10010)
-source("fast.adonis.R")
+
 
 # no weights
 # create a distance matrix
