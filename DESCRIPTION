@@ -1,8 +1,8 @@
 Package: fast.adonis
 Title: Analysis of Variance Using Distance Matrices
 Version: 0.0.1.0
-Author: person("Shilan", "Li", "sl1326@georgetown.edu", role = c("aut", "cre"))
-Maintainer: person("Shilan", "Li", "sl1326@georgetown.edu", role = c("aut", "cre"))
+Authors@R: c(
+    person("Shilan", "Li", role = c("aut", "cre"), email="sl1326@georgetown.edu"))
 Description: a computationally efficient nonparametric multivariate analysis of microbiome data for large-scale studies.
    R (>= 4.1.0),
 Imports:
