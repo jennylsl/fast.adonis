@@ -7,7 +7,7 @@ Description: fast.adonis is a computationally efficient nonparametric multivaria
 Depends:
    R (>= 4.1.0),
 Imports:
-   vegan,
+   vegan(>= 2.5.7),
    plyr
 Suggests:
    parallel
