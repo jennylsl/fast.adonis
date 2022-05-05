@@ -1,8 +1,8 @@
 Package: fast.adonis
 Title: Analysis of Variance Using Distance Matrices
 Version: 0.0.1.0
-Authors@R: 
-    person("Shilan", "Li", "sl1326@georgetown.edu", role = c("aut", "cre"))
+Author: person("Shilan", "Li", "sl1326@georgetown.edu", role = c("aut", "cre"))
+Maintainer: person("Shilan", "Li", "sl1326@georgetown.edu", role = c("aut", "cre"))
 Description: fast.adonis is a computationally efficient nonparametric multivariate analysis of microbiome data for large-scale studies. This code generates results consistent with adonis/adonis2 but much faster. For complex sampling studies, fast.adonis integrates sampling weight algebraically without replicating samples to mimic the source population; thus, analysis can be completed much faster without requiring a large amount of memory.
 Depends:
    R (>= 4.1.0),
